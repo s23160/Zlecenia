@@ -85,7 +85,7 @@ nav ul li h3 .spanhover::after{
   content: "";
   position: absolute;
   background-color: #B3152A;
-  height: 9px;
+  height: 3px;
   width: 0;
   left: 0;
   bottom: -6px;
