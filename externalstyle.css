@@ -1,7 +1,6 @@
 .sort-and-view .sortlinks select{
   position: absolute;
   right: 6px;
-  top: 6px;
 }
 
 .alert-info p, .alert-info span{
