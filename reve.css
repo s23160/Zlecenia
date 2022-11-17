@@ -213,3 +213,80 @@ header .login-bar {
 }
 
 
+
+
+
+
+.search-input{
+  width: 150px;
+}
+
+.addtobasket span{
+  display: none;
+}
+
+header .logo-bar .search .btn {
+  height: 30px;
+}
+
+header .logo-bar .basket{
+  border: none;
+  min-width: 35px;
+  background: none;
+  padding: 0;
+}
+
+header .logo-bar .basket > a.count::before {
+  font-family: 'Material Icons';
+  content: "\f1cc";
+  font-size: 2em;
+  position: relative;
+  top: 7px;
+  left: -3px;
+}
+
+header .logo-bar .search__container {
+  width: auto;
+}
+
+header .logo-bar .search__input {
+  height: 30px;
+}
+
+header .logo-bar .search-form .search-input {
+  min-height: auto;
+  height: auto;
+}
+.search__container {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.search__container form {
+  margin: 0 !important;
+}
+
+.search__content {
+  min-width: 200px;
+}
+
+header .basket-contain{
+  display: none !important;
+}
+
+.addtobasket::before {
+  font-family: 'Material Icons';
+  font-size: 20px;
+  content: '\e8cc';
+  display: inline-block;
+}
+
+.search__input-area {
+  border-right: 1px solid #d8d8d8;
+}
+
+.js__search-submit-btn {
+  display: none;
+}
+
