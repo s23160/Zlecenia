@@ -1,3 +1,268 @@
+html {
+  scroll-behavior: smooth;
+}
+
+div.wpforms-container-full .wpforms-form input.wpforms-field-small{
+	max-width: 100%;
+}
+
+div.wpforms-container-full .wpforms-form .wpforms-field-label{
+	color: white;
+}
+
+.site-header{
+	padding-bottom: 0;
+}
+
+#buttons-vin-tab button {
+  width: 100% !important;
+}
+
+#stm_vim_history .vc_toggle_active {
+  margin-top: 0;
+}
+
+button.menu-toggle{
+	border: none !important;
+}
+
+.menu-item a, .page-title{
+	text-align: center;
+	font-family: "Tinos", Sans-serif;	
+}
+
+.storefront-secondary-navigation.woocommerce-active .site-header .secondary-navigation {
+	width: 70% !important;
+}
+
+#wpforms-671{
+	margin-top: 50px;
+}
+
+#wpforms-671 label{
+	color: black;
+}
+
+#wpforms-671 #wpforms-submit-671{
+	background: black;
+	color: white;
+}
+
+.storefront-breadcrumb, .woocommerce-error, .error-404 .page-content .fourohfour-columns-2, .woocommerce-error, .error-404 .page-content p, .woocommerce-error, .error-404 .page-content section{
+	display: none !important;
+}
+
+.woocommerce-notices-wrapper .woocommerce-error{
+	display: block;
+	max-width: 1600px;
+	margin-left: auto;
+	margin-right: auto;
+	background: #B3152A;
+}
+
+.woocommerce-order-pay #order_review #payment .form-row{
+	padding: 0;
+}
+
+.form-row .button {
+  width: 100%;
+}
+
+#order_review, .error-404.not-found {
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#place_order{
+	background: black;
+  color: white;
+}
+
+#place_order:hover{
+	background: #B3152A;
+}
+
+.sp-lc-image.skip-lazy{
+	height: auto;
+	max-width: 150px;
+
+}
+
+#logo-carousel-free-388.sp-lc-container .sp-lc-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background-color: #B3152A;
+}
+
+#colophon {
+  margin-bottom: 60px;
+}
+
+#logo-carousel-free-388.sp-lc-container .sp-lc-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background-color: #B3152A;
+}
+
+div.wpforms-container-full .wpforms-form button[type="submit"]:hover{
+	background-color: #B3152A;
+  border: 1px solid #B3152A;
+	color: white;
+}
+
+div.wpforms-container-full .wpforms-form label.wpforms-error{
+	color: #B3152A;
+	display: none;
+}
+
+div.wpforms-container-full .wpforms-form .wpforms-field input.wpforms-error{
+	border: 2px solid #B3152A;
+}
+
+.wpforms-field-label, #wpforms-submit-59{
+font-family: "Tinos", Sans-serif;	
+}
+
+
+.col-full{
+   max-width: 100%;
+  padding: 0;
+}
+
+.menu-item a{
+	font-size: 1.2rem;
+}
+
+.site-header{
+	max-width: 90%;
+	  margin-left: auto;
+  margin-right: auto;
+}
+
+.entry-header, .edit-link, #site-header-cart, .site-search{
+	display: none;
+}
+.menu ul li, .site-info, .site-description{
+	display: none !important;
+}
+
+.elementor-icon-list-items {
+  list-style-type: none;
+}
+
+.footer-widgets{
+	border-bottom: none;
+}
+
+.site-footer{
+	padding: 0;
+}
+
+.content-area, .widget-area {
+  margin-bottom: 0;
+}
+
+.accordion__title{
+	text-align: center !important;
+	margin-top: 10px;
+}
+
+.site-header {
+	border-bottom: none;
+}
+
+.home.page:not(.page-template-template-homepage) .site-header, .site-branding {
+  margin-bottom: 0;
+}
+
+#request-stm_vim_history2 a{
+	text-decoration: none !important;
+	color: #222;
+	white-space: initial;
+	font-size: 12px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+#request-stm_vim_history2 .heading-font{
+	text-align: center;
+}
+
+.custom-logo {
+  display: block;
+}
+
+.site-header .site-logo-anchor, .site-header .site-logo-link, .site-header .custom-logo-link {
+  display: inline-block;
+  position: relative;
+  top: -21px;
+}
+
+#wpforms-59-field_3-error, #wpforms-59-field_7-error, #wpforms-59-field_5-error {
+	display: none !important;
+}
+
+.storefront-secondary-navigation.woocommerce-active .site-header .secondary-navigation {
+    width: 47.8260869565%;
+    float: right;
+    margin-right: 0;
+}
+
+#menu-menu-glowne {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+#menu-menu-glowne li {
+  display: inline-block;
+  list-style: outside none none;
+  margin: 0 2em;
+  padding: 0;
+}
+#menu-menu-glowne a {
+  padding: 0.5em 0;
+  color: #444;
+  position: relative;
+  letter-spacing: 1px;
+  text-decoration: none;
+	font-family: "Tinos", Sans-serif;
+}
+
+#menu-menu-glowne a:hover{
+	color: black;
+}
+
+#menu-menu-glowne a:before,
+#menu-menu-glowne a:after {
+  position: absolute;
+  -webkit-transition: all 0.30s ease;
+  transition: all 0.30s ease;
+}
+#menu-menu-glowne a:before {
+  bottom: 0;
+  display: block;
+  height: 3px;
+  width: 0%;
+  content: "";
+  background-color: #B3152A;
+}
+#menu-menu-glowne a:hover:before,
+#menu-menu-glowne .current a:before {
+  opacity: 1;
+  width: 100%;
+}
+#menu-menu-glowne a:hover:after,
+#menu-menu-glowne .current a:after {
+  max-width: 100%;
+}
+
+#checkVin{
+	background: gray;
+	border: 2px solid gray;
+}
+
+/*#stm_motors_vin_decoder .sample_vin {
+  display: none;
+}*/
+
 div.wpforms-container-full .wpforms-form .wpforms-required-label {
   color: #B3152A;
 }
