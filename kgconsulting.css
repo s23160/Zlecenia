@@ -1,3 +1,90 @@
-body{
-  font-weight: normal;
+@media (min-width: 921px){
+.ast-theme-transparent-header #masthead {
+  position: fixed;
+}	
+}
+
+#masthead{
+	background-color: white;
+	border-bottom: 2px solid black !important;
+}
+
+#masthead .menu-link{
+	color: black;
+}
+
+.ast-desktop .ast-primary-header-bar.main-header-bar{
+	margin-bottom: 0;
+}
+
+.woocommerce #content table.cart .button[name="apply_coupon"], .woocommerce-page #content table.cart .button[name="apply_coupon"] {
+  padding: 19px 30px 19px 30px;
+}
+
+.related.products {
+  display: none !important;
+}
+
+.elementor-button-wrapper .elementor-button:hover{
+	color: white;
+}
+
+.button.wp-element-button.product_type_simple.add_to_cart_button.ajax_add_to_cart {
+  width: 100%;
+  text-align: center;
+}
+
+.woocommerce ul.products li.product a img {
+	width: auto;
+}
+
+
+.ast-builder-menu-1 .menu-item > .menu-link {
+  font-size: inherit;
+}
+ .woocommerce-js .astra-cart-drawer .widget_shopping_cart_content a.button.wc-forward:not(.checkout) {
+  background-color: white;
+}
+
+.entry-header.ast-no-thumbnail.ast-no-meta {
+	display: none;
+}
+
+@media (max-width: 767px)
+.elementor:not(.elementor-edit-area-active) .elementor-hidden-phone {
+    display: block !important;
+}
+
+.ast-theme-transparent-header .ast-menu-cart-fill .ast-cart-menu-wrap .count, .ast-theme-transparent-header .ast-menu-cart-fill .ast-cart-menu-wrap, .ast-theme-transparent-header .ast-menu-cart-fill .ast-addon-cart-wrap .ast-woo-header-cart-info-wrap, .ast-theme-transparent-header .ast-menu-cart-fill .ast-addon-cart-wrap {
+  background-color: transparent;
+}
+
+.ast-site-header-cart .ast-addon-cart-wrap i.astra-icon::after {
+  color: black;
+  background-color: white;
+}
+
+.ast-theme-transparent-header .ast-header-account-wrap .ast-header-account-type-icon .ahfb-svg-iconset svg path:not(.ast-hf-account-unfill), .ast-theme-transparent-header .ast-header-account-wrap .ast-header-account-type-icon .ahfb-svg-iconset svg circle {
+  fill: black;
+}
+
+.ast-menu-cart-fill .ast-cart-menu-wrap .count, .ast-menu-cart-fill .ast-cart-menu-wrap, .ast-menu-cart-fill .ast-addon-cart-wrap .ast-woo-header-cart-info-wrap, .ast-menu-cart-fill .ast-addon-cart-wrap {
+  background-color: transparent;
+  color: black;
+}
+
+.ast-menu-cart-fill .ast-site-header-cart-li:hover .ast-cart-menu-wrap .count, .ast-menu-cart-fill .ast-site-header-cart-li:hover .ast-cart-menu-wrap, .ast-menu-cart-fill .ast-site-header-cart-li:hover .ast-addon-cart-wrap, .ast-menu-cart-fill .ast-site-header-cart-li:hover .ast-addon-cart-wrap .ast-woo-header-cart-info-wrap, .ast-menu-cart-fill .ast-site-header-cart-li:hover .ast-addon-cart-wrap i.astra-icon::after {
+  color: black;
+}
+
+
+.ast-site-header-cart.ast-menu-cart-fill .ast-site-header-cart-li:hover .astra-icon {
+  color: black;
+}
+
+.ast-site-header-cart .ast-addon-cart-wrap i.astra-icon::after {
+  color: black;
+}
+.ast-site-header-cart i.astra-icon::after {
+  background: white;
 }
