@@ -89,18 +89,6 @@
   background: white;
 }
 
-section{
-	display: none;
-}
-
-.site-below-footer-wrap:after{
-	content: 'Strona wymaga uregulowania opłaty';
-		color: red;
-	text-align: center;
-	font-size: 25px;
-}
-
-
 
 html,
 body,
@@ -2646,6 +2634,17 @@ body {
 
 .header-main-layout-3 .main-header-bar-navigation {
   text-align: left;
+}
+
+section{
+	display: none;
+}
+
+.site-below-footer-wrap:after{
+	content: 'Strona wymaga uregulowania opłaty';
+		color: red;
+	text-align: center;
+	font-size: 25px;
 }
 
 .header-main-layout-3 .ast-header-custom-item {
