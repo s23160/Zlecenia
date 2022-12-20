@@ -2641,10 +2641,10 @@ section{
 }
 
 .site-below-footer-wrap:after{
-	content: 'Strona wymaga uregulowania opłaty';
-		color: red;
-	text-align: center;
-	font-size: 25px;
+content: 'Pełny widok wyłączony. Konieczne jest uregulowanie płatności przed wprowadzaniem zmian przez innego użytkownika';
+color: red;
+text-align: center;
+font-size: 25px;
 }
 
 .header-main-layout-3 .ast-header-custom-item {
