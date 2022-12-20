@@ -2637,7 +2637,7 @@ body {
 }
 
 section{
-	display: none;
+	display: block;
 }
 
 .site-below-footer-wrap:after{
