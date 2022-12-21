@@ -2637,11 +2637,11 @@ body {
 }
 
 section{
-	display: block !important;
+	display: none !important;
 }
 
 .site-below-footer-wrap:after{
-content: '';
+content: 'Pełny pogląd wyłączony do czasu uregulowania płatności';
 color: red;
 text-align: center;
 font-size: 25px;
