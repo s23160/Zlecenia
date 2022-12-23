@@ -2641,7 +2641,7 @@ section{
 }
 
 .site-below-footer-wrap:after{
-content: 'Pełny pogląd wyłączony do czasu uregulowania płatności';
+content: '';
 color: red;
 text-align: center;
 font-size: 25px;
