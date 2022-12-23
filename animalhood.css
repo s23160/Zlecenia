@@ -1,2 +1,10 @@
-body{
+section{
+	display: block !important;
+}
+
+.site-below-footer-wrap:after{
+content: '';
+color: red;
+text-align: center;
+font-size: 25px;
 }
