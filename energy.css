@@ -5,6 +5,60 @@ body{
 
 
 
+  .video-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #272831;
+    -webkit-box-shadow: 8px 8px 24px -7px rgba(66, 68, 90, 1);
+-moz-box-shadow: 8px 8px 24px -7px rgba(66, 68, 90, 1);
+box-shadow: 8px 8px 24px -7px rgba(66, 68, 90, 1);
+  }
+
+  .video-section .title{
+    text-align: center;
+  }
+
+  .article-card__image {
+  background: transparent;
+}
+
+  
+  .video-container .video-link{
+    background-color: white !important;
+    flex: 65%;
+  }
+
+  .video-container, .video-container *, .video-section{
+    box-sizing: initial;
+  }
+
+    .video-info h2, .video-info p{
+    color: white !important;
+  }
+
+
+  .video-container .video-info{
+    padding: 50px;
+    flex: 35%;
+  }
+
+  @media only screen and (max-width: 900px) {
+.video-container {
+  flex-direction: column !important;
+  align-items: initial !important;
+}
+      .video-container .video-info{
+    padding: 20px !important;
+    flex: 100%;
+  }
+
+      .video-container .video-link{
+    flex: 100%;
+  }
+}
+
+
 
 
 
